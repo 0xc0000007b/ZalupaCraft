@@ -1,0 +1,216 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 11/18/22 2:29 PM
+Description: Initializing game
+
+java.lang.NullPointerException: Initializing game
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:883)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:883)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 5.15.0-52-generic
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 153297816 bytes (146 MB) / 1308622848 bytes (1248 MB) up to 6643777536 bytes (6336 MB)
+	JVM Flags: 7 total; -Xmx6328M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 Optifine OptiFine_1.7.10_HD_U_E7 134 mods loaded, 134 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJ	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJ	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJ	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJ	appliedenergistics2-core{rv3-beta-6} [Applied Energistics 2 Core] (minecraft.jar) 
+	UCHIJ	CodeChickenCore{1.0.7.48} [CodeChicken Core] (minecraft.jar) 
+	UCHIJ	itemphysic{1.1.5} [ItemPhysic] (minecraft.jar) 
+	UCHIJ	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-universal.jar) 
+	UCHIJ	OpenComputers|Core{1.8.0-snapshot-20220918} [OpenComputers (Core)] (minecraft.jar) 
+	UCHIJ	OpenModsCore{0.10.1} [OpenModsCore] (minecraft.jar) 
+	UCHIJ	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCHIJ	DamageIndicatorsMod{3.3.2} [Damage Indicators] ([1.7.10]DamageIndicatorsMod-3.3.2.jar) 
+	UCHIJ	CoFHCore{1.7.10R3.1.4} [CoFH Core] (CoFHCore-[1.7.10]3.1.4-329.jar) 
+	UCHIJ	fp{18.7 pre} [Futurepack] ([1.7.10]Futurepack 18.7.jar) 
+	UCHIJ	BuildCraft|Core{7.1.24} [BuildCraft] (buildcraft-7.1.24.jar) 
+	UCHIJ	BuildCraft|Silicon{7.1.24} [BC Silicon] (buildcraft-7.1.24.jar) 
+	UCHIJ	BuildCraft|Transport{7.1.24} [BC Transport] (buildcraft-7.1.24.jar) 
+	UCHIJ	BuildCraft|Factory{7.1.24} [BC Factory] (buildcraft-7.1.24.jar) 
+	UCHIJ	additionalpipes{4.7.7} [Additional Pipes] (additionalpipes-4.7.7.jar) 
+	UCHIJ	IC2{2.2.827-experimental} [IndustrialCraft 2] (industrialcraft_2_2.2.827_ex1.7.10.jar) 
+	UCHIJ	AdvancedSolarPanel{1.7.10-3.5.1} [Advanced Solar Panels] (AdvancedSolarPanel_1.7.10_Edition.jar) 
+	UCHIJ	aether_legacy{v1.1.2.2} [The Aether] (aether-1.7.10-v1.1.2.2.jar) 
+	UCHIJ	AgriCraft{1.7.10-1.5.0} [AgriCraft] (AgriCraft-1.7.10-1.5.0.jar) 
+	UCHIJ	ambientsounds{0.1} [Ambient Sounds] (AmbientSoundsAlphav0.1mc1.7.10.zip) 
+	UCHIJ	apples{1.16} [apples] (Apples+.jar) 
+	UCHIJ	appliedenergistics2{rv3-beta-6} [Applied Energistics 2] (appliedenergistics2-rv3-beta-6.jar) 
+	UCHIJ	Aquaculture{1.2.6} [Aquaculture] (Aquaculture-1.7.10-1.2.6.21.jar) 
+	UCHIJ	Backpack{2.0.1} [Backpack] (backpack-2.0.1-1.7.x.jar) 
+	UCHIJ	backpacks16840{3.5.8} [Backpacks!] (backpacks+1.7.10+-+3.5.8.jar) 
+	UCHIJ	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) 
+	UCHIJ	baublelicious{1.7.10-1.2.2-final} [Baublelicious] (baublelicious-1.7.10-1.2.2-final.jar) 
+	UCHIJ	BaublesHud{2.0.1} [Baubles-Hud] (BaublesHud-1.7.10-2.0.1.jar) 
+	UCHIE	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft_1.7.10_4.2.3.5.jar) 
+	UCHIJ	baublesstuff{2.1.2} [Baubles Stuff] (baublesstuff-2.1.2.jar) 
+	UCHIJ	FLabsBF{4.3} [Better Furnaces] (Better-Furnaces-Mod-1.7.10.jar) 
+	UCHIJ	betterbuilderswands{0.8.1} [Better Builder's Wands] (BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar) 
+	UCHIJ	BetterFoliage{2.0.17} [Better Foliage] (BetterFoliage-MC1.7.10-2.0.17.jar) 
+	UCHIJ	BiblioCraft{1.11.6} [BiblioCraft] (BiblioCraft-Mod-1.7.10.jar) 
+	UCHIJ	BiomesOPlenty{2.1.0} [Biomes O' Plenty] (BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar) 
+	UCHIJ	bookshelf{1.0.4.187} [Bookshelf] (Bookshelf-1.7.10-1.0.4.187.jar) 
+	UCHIJ	Botania{r1.8-249} [Botania] (Botania r1.8-249.jar) 
+	UCHIJ	BuildCraft|Builders{7.1.24} [BC Builders] (buildcraft-7.1.24.jar) 
+	UCHIJ	BuildCraft|Robotics{7.1.24} [BC Robotics] (buildcraft-7.1.24.jar) 
+	UCHIJ	BuildCraft|Energy{7.1.24} [BC Energy] (buildcraft-7.1.24.jar) 
+	UCHIJ	ChickenChunks{1.3.4.16} [ChickenChunks] (ChickenChunks-1.7.10-1.3.4.16-universal.jar) 
+	UCHIJ	Railcraft{9.12.2.1} [Railcraft] (Railcraft_1.7.10-9.12.2.1.jar) 
+	UCHIJ	TwilightForest{2.3.8dev} [The Twilight Forest] (twilightforest-1.7.10-2.3.8.jar) 
+	UCHIJ	ForgeMultipart{1.2.0.345} [Forge Multipart] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UCHIJ	chisel{2.9.5.11} [Chisel] (Chisel-2.9.5.11.jar) 
+	UCHIJ	CompactSolars{4.4.34.312} [Compact Solar Arrays] (CompactSolars-1.7.10-4.4.34.312-universal.jar) 
+	UCHIJ	CoroAI{v1.0} [CoroAI] (coroutil-1.7.10-1.1.6.jar) 
+	UCHIJ	BuildMod{v1.0} [Build Mod] (coroutil-1.7.10-1.1.6.jar) 
+	UCHIJ	CoroPets{v1.0} [CoroPets] (coroutil-1.7.10-1.1.6.jar) 
+	UCHIJ	ExtendedRenderer{v1.0} [Extended Renderer] (coroutil-1.7.10-1.1.6.jar) 
+	UCHIJ	ConfigMod{v1.0} [Extended Mod Config] (coroutil-1.7.10-1.1.6.jar) 
+	UCHIJ	craftingtweaks{1.0.88} [Crafting Tweaks] (craftingtweaks-mc1.7.10-1.0.88.jar) 
+	UCHIJ	MineTweaker3{3.1.0} [MineTweaker 3] (CraftTweaker-1.7.10-3.1.0-legacy.jar) 
+	UCHIJ	creativecore{1.3.14} [CreativeCore] (CreativeCore v1.3.24 mc1.7.10.jar) 
+	UCHIJ	DynamicLights{1.3.9a} [Dynamic Lights] (Dynamic Lights-1.3.9a-MC1.7.10.jar) 
+	UCHIJ	dynamictrees{1.7.10-0.7.2c} [Dynamic Trees] (DynamicTrees-1.7.10-0.7.2c.jar) 
+	UCHIJ	Eln{@VERSION@} [Electrical Age] (ElectricalAge-1.17.0.jar) 
+	UCHIJ	energycontrol{1.7.10-0.3.4} [Energy Control] (EnergyControl-1.7.10-0.3.4.jar) 
+	UCHIJ	enviromine{1.3.124} [EnviroMine] (EnviroMine-1.3.124.jar) 
+	UCHIJ	ThermalFoundation{1.7.10R1.2.6} [Thermal Foundation] (ThermalFoundation-[1.7.10]1.2.6-118.jar) 
+	UCHIJ	ExtraUtilities{1.2.12} [Extra Utilities] (extrautilities-1.2.12.jar) 
+	UCHIJ	FoodExpansion{1.0} [Food Expansion] (FoodExpansion1.1.1-mc1.7.10.jar) 
+	UCHIJ	Forestry{4.2.16.64} [Forestry for Minecraft] (forestry_1.7.10-4.2.16.64.jar) 
+	UCHIJ	FpsReducer{mc1.7.10-1.10.3} [FPS Reducer] (FpsReducer-mc1.7.10-1.10.3.jar) 
+	UCHIJ	Waila{1.5.10} [Waila] (Waila-1.5.10_1.7.10.jar) 
+	UCHIJ	FTBL{1.0.18.2} [FTBLib] (FTBLib-1.7.10-1.0.18.3.jar) 
+	UCHIJ	FTBT{1.0.2} [FTB Tweaks] (FTBTweaks-1.0.2.jar) 
+	UCHIJ	FTBU{1.0.18.2} [FTBUtilities] (FTBUtilities-1.7.10-1.0.18.3.jar) 
+	UCHIJ	iChunUtil{4.2.3} [iChunUtil] (iChunUtil-4.2.3.jar) 
+	UCHIJ	IGWMod{1.1.12-34} [In-Game wiki Mod] (IGW-Mod-1.7.10-1.1.12-34-universal.jar) 
+	UCHIJ	ImmersiveEngineering{0.7.7} [Immersive Engineering] (ImmersiveEngineering-0.7.7.jar) 
+	UCHIJ	industrialupgrade{2.5.21} [Industrial Upgrade] (IndustrialUpgrade-2.5.21.jar) 
+	UCHIJ	inventorytweaks{1.59-dev-152-cf6e263} [Inventory Tweaks] (InventoryTweaks-1.59-dev-152.jar) 
+	UCHIJ	IronChest{6.0.39.728} [Iron Chest] (ironchest-1.7.10-6.0.39.728-universal.jar) 
+	UCHIJ	journeymap{5.1.4p2} [JourneyMap] (journeymap-1.7.10-5.1.4p2-unlimited.jar) 
+	UCHIJ	jecalculation{1.7.10-3.8.4} [Just Enough Calculation] (JustEnoughCalculation-1.7.10-3.8.4.jar) 
+	UCHIJ	KeepingInventory{2.1} [Keeping Inventory] (KeepingInventory-1.7.10-2.1.jar) 
+	UCHIJ	malisiscore{1.7.10-0.14.3} [MalisisCore] (malisiscore-1.7.10-0.14.3.jar) 
+	UCHIJ	malisisdoors{1.7.10-1.13.2} [Malisis' Doors] (malisisdoors-1.7.10-1.13.2.jar) 
+	UCHIJ	Mantle{1.7.10-0.3.2.jenkins191} [Mantle] (Mantle-1.7.10-0.3.2b.jar) 
+	UCHIJ	RadixCore{2.1.3} [RadixCore] (RadixCore-1.7.10-2.1.3-universal.jar) 
+	UCHIJ	MCA{1.7.10-5.2.2} [Minecraft Comes Alive] (MCA-1.7.10-5.2.2-universal.jar) 
+	UCHIJ	Mekanism{9.1.1} [Mekanism] (Mekanism-1.7.10-9.1.1.1031.jar) 
+	UCHIJ	Morpheus{1.7.10-1.6.21} [Morpheus] (Morpheus-1.7.10-1.6.21.jar) 
+	UCHIJ	MouseTweaks{2.4.4} [Mouse Tweaks] (MouseTweaks-2.4.4-mc1.7.10.jar) 
+	UCHIJ	NuclearCraft{1.9g} [NuclearCraft] (NuclearCraft-1.9g--1.7.10.jar) 
+	UCHIJ	MrTJPCoreMod{1.1.0.33} [MrTJPCore] (MrTJPCore-1.1.0.33-universal.jar) 
+	UCHIJ	ProjRed|Core{4.7.0pre12.95} [ProjectRed Core] (ProjectRed-1.7.10-4.7.0pre12.95-Base.jar) 
+	UCHIJ	ProjRed|Transmission{4.7.0pre12.95} [ProjectRed Transmission] (ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar) 
+	UCHIJ	ThermalExpansion{1.7.10R4.1.5} [Thermal Expansion] (ThermalExpansion-[1.7.10]4.1.5-248.jar) 
+	UCHIJ	OpenComputers{1.8.0-snapshot-20220918} [OpenComputers] (OpenComputers-MC1.7.10-1.8.0-snapshot-20220918+00c5a9b-universal.jar) 
+	UCHIJ	OpenMods{0.10.1} [OpenMods] (OpenModsLib-1.7.10-0.10.1.jar) 
+	UCHIJ	clayspawn{1.7.10b} [Pam's Clayspawn] (Pam's Clay Spawn 1.7.10b.jar) 
+	UCHIJ	desertcraft{1.7.2b} [Pam's DesertCraft] (Pam's DesertCraft 1.7.10a.zip) 
+	UCHIJ	getalltheseeds{1.7.10a} [Pam's Get all the Seeds!] (Pam's Get all the Seeds 1.7.10a.jar) 
+	UCHIJ	harvestthenether{1.7.10} [Pam's Harvest the Nether] (Pam's Harvest the Nether 1.7.10a.jar) 
+	UCHIJ	harvestcraft{1.7.10j} [Pam's HarvestCraft] (Pam's HarvestCraft 1.7.10Lb.jar) 
+	UCHIJ	mobdropcrops{1.7.2a} [Pam's Mob Drop Crops] (Pam's Mob Drop Crops 1.7.10a.zip) 
+	UCHIJ	needmoarsticks{1.7.10a} [Pam's Need Moar Sticks] (Pam's Need Moar Sticks 1.7.10a.jar) 
+	UCHIJ	randomplants{1.7.2a} [Pam's RandomPlants] (Pam's Random Pants 1.7.2a.zip) 
+	UCHIJ	simplerecipes{1.7.10a} [Pam's Simple Recipes] (Pam's Simple Recipes 1.7.10a.jar) 
+	UCHIJ	temperateplants{1.7.2b} [Pam's Temperate Plants] (Pam's Temperate Plants 1.7.2b.zip) 
+	UCHIJ	weeeflowers{1.7.2b} [Pam's Weee! Flowers] (Pam's WeeeFlowers 1.7.2b.zip) 
+	UCHIJ	physica{1.7.10-1.5.6-0} [Physica] (PhysicaCore-1.7.10-1.5.6-0.jar) 
+	UCHIJ	physicanuclearphysics{1.7.10-1.5.7-FC563AA} [PhysicaNuclearPhysics] (PhysicaNuclearPhysics-1.7.10-1.5.7-FC563AA.jar) 
+	UCHIJ	ProjectE{1.7.10-PE1.10.1} [ProjectE] (ProjectE-1.7.10-PE1.10.1.jar) 
+	UCHIJ	ProjRed|Transportation{4.7.0pre12.95} [ProjectRed Transportation] (ProjectRed-1.7.10-4.7.0pre12.95-Mechanical.jar) 
+	UCHIJ	ProjRed|Exploration{4.7.0pre12.95} [ProjectRed Exploration] (ProjectRed-1.7.10-4.7.0pre12.95-World.jar) 
+	UCHIJ	TConstruct{1.7.10-1.8.8.build991} [Tinkers' Construct] (TConstruct-1.7.10-1.8.8.build991.jar) 
+	UCHIJ	ProjRed|Compatibility{4.7.0pre12.95} [ProjectRed Compatibility] (ProjectRed-1.7.10-4.7.0pre12.95-Compat.jar) 
+	UCHIJ	ProjRed|Integration{4.7.0pre12.95} [ProjectRed Integration] (ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar) 
+	UCHIJ	ProjRed|Fabrication{4.7.0pre12.95} [ProjectRed Fabrication] (ProjectRed-1.7.10-4.7.0pre12.95-Fabrication.jar) 
+	UCHIJ	ProjRed|Illumination{4.7.0pre12.95} [ProjectRed Illumination] (ProjectRed-1.7.10-4.7.0pre12.95-Lighting.jar) 
+	UCHIJ	ProjRed|Expansion{4.7.0pre12.95} [ProjectRed Expansion] (ProjectRed-1.7.10-4.7.0pre12.95-Mechanical.jar) 
+	UCHIJ	rftools{4.23} [RFTools] (rftools-4.23.jar) 
+	UCHIJ	RTG{1.7.10-1.1.1.7} [Realistic Terrain Generation] (RTG-1.7.10-1.1.1.7.jar) 
+	UCHIJ	sereneseasons{1.2.18} [Serene Seasons] (SereneSeasons-1.7.10-1.2.18.jar) 
+	UCHIJ	StorageDrawers{1.7.10-1.10.9} [Storage Drawers] (StorageDrawers-1.7.10-1.10.9.jar) 
+	UCHIE	thaumcraftneiplugin{@VERSION@} [Thaumcraft NEI Plugin] (thaumcraftneiplugin-1.7.10-1.7a.jar) 
+	UCHIJ	ThermalDynamics{1.7.10R1.2.1} [Thermal Dynamics] (ThermalDynamics-[1.7.10]1.2.1-172.jar) 
+	UCHIJ	TMechworks{0.2.15.106} [Tinkers' Mechworks] (TMechworks-1.7.10-0.2.15.106.jar) 
+	UCHIJ	trashslot{1.0.31} [TrashSlot] (trashslot-mc1.7.10-1.0.31.jar) 
+	UCHIJ	wawla{1.3.1} [What Are We Looking At] (Wawla-1.0.5.120.jar) 
+	UCHIJ	waystones{1.0.12} [Waystones] (Waystones-mc1.7.10-1.0.12.jar) 
+	UCHIJ	weather2{v2.3.19} [Localized Weather & Storms] (weather2-1.7.10-2.3.20.jar) 
+	UCHIJ	wirelessindustry{0.7.20} [Wireless Industry] (wirelessindustry-0.7.20.jar) 
+	UCHIJ	McMultipart{1.2.0.345} [Minecraft Multipart Plugin] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UCHIJ	ForgeRelocation{0.0.1.4} [ForgeRelocation] (ForgeRelocation-1.7.10-0.0.1.4-universal.jar) 
+	UCHIJ	MCFrames{1.0} [MCFrames] (ForgeRelocation-1.7.10-0.0.1.4-universal.jar) 
+	UCHIJ	RelocationFMP{0.0.1.2} [RelocationFMP] (ForgeRelocationFMP-1.7.10-0.0.1.2-universal.jar) 
+	UCHIJ	ForgeMicroblock{1.2.0.345} [Forge Microblocks] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	GL info: ' Vendor: 'Intel' Version: '4.6 (Compatibility Profile) Mesa 22.0.5' Renderer: 'Mesa Intel(R) UHD Graphics (CML GT2)'
+	OpenModsLib class transformers: [stencil_patches:FINISHED],[movement_callback:FINISHED],[player_damage_hook:FINISHED],[map_gen_fix:FINISHED],[gl_capabilities_hook:FINISHED],[player_render_hook:FINISHED]
+	Class transformer null safety: found misbehaving transformers: sereneseasons.asm.transformer.ColorTransformer(sereneseasons.asm.transformer.ColorTransformer@64a24785) crashed with java.lang.NullPointerException(null),sereneseasons.asm.transformer.WeatherTransformer(sereneseasons.asm.transformer.WeatherTransformer@5d16f8b8) crashed with java.lang.NullPointerException(null)
+	CoFHCore: -[1.7.10]3.1.4-329
+	AE2 Version: beta rv3-beta-6 for Forge 10.13.4.1448
+	ThermalFoundation: -[1.7.10]1.2.6-118
+	Mantle Environment: DO NOT REPORT THIS CRASH! Unsupported mods in environment: optifine
+	ThermalExpansion: -[1.7.10]4.1.5-248
+	TConstruct Environment: Environment healthy.
+	ThermalDynamics: -[1.7.10]1.2.1-172
+	Chisel: Errors like "[FML]: Unable to lookup ..." are NOT the cause of this crash. You can safely ignore these errors. And update forge while you're at it.
+	Stencil buffer state: Function set: GL30, pool: forge, bits: 8
+	Forestry : Warning: You have mods that change the behavior of Minecraft, ForgeModLoader, and/or Minecraft Forge to your client: 
+Optifine
+These may have caused this error, and may not be supported. Try reproducing the crash WITHOUT these mods, and report it then.
+	AE2 Integration: IC2:ON, RotaryCraft:OFF, RC:ON, BuildCraftCore:ON, BuildCraftTransport:ON, BuildCraftBuilder:ON, RF:ON, RFItem:ON, MFR:OFF, DSU:ON, FZ:OFF, FMP:ON, RB:OFF, CLApi:OFF, Waila:ON, InvTweaks:ON, NEI:ON, CraftGuide:OFF, Mekanism:ON, ImmibisMicroblocks:OFF, BetterStorage:OFF, OpenComputers:ON, PneumaticCraft:OFF
+	Launched Version: ZalupaCraft 1.0 pre-beta
+	LWJGL: 2.9.1
+	OpenGL: Mesa Intel(R) UHD Graphics (CML GT2) GL version 4.6 (Compatibility Profile) Mesa 22.0.5, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: On (4)
+	OptiFine Version: OptiFine_1.7.10_HD_U_E7
+	Render Distance Chunks: 11
+	Mipmaps: 4
+	Anisotropic Filtering: 4
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 22.0.5
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics (CML GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8

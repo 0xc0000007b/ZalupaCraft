@@ -1,0 +1,212 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 11/16/22 2:53 AM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+cpw.mods.fml.common.LoaderException: java.lang.ClassNotFoundException: mcheli.MCH_MOD
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:163)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:544)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: java.lang.ClassNotFoundException: mcheli.MCH_MOD
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cpw.mods.fml.common.ModClassLoader.loadClass(ModClassLoader.java:58)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:440)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at sereneseasons.asm.transformer.ColorTransformer.transform(ColorTransformer.java:21)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 37 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 5.15.0-52-generic
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 461804208 bytes (440 MB) / 1073741824 bytes (1024 MB) up to 3154116608 bytes (3008 MB)
+	JVM Flags: 7 total; -Xmx3000M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 Optifine OptiFine_1.7.10_HD_U_E7 120 mods loaded, 120 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UC	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UC	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UC	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UC	appliedenergistics2-core{rv3-beta-6} [Applied Energistics 2 Core] (minecraft.jar) 
+	UC	CodeChickenCore{1.0.7.48} [CodeChicken Core] (minecraft.jar) 
+	UC	itemphysic{1.1.5} [ItemPhysic] (minecraft.jar) 
+	UC	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-universal.jar) 
+	UC	OpenComputers|Core{1.8.0-snapshot-20220918} [OpenComputers (Core)] (minecraft.jar) 
+	UC	OpenModsCore{0.10.1} [OpenModsCore] (minecraft.jar) 
+	UC	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UC	FoamFixCore{1.0.2} [FoamFixCore] (minecraft.jar) 
+	UC	DamageIndicatorsMod{3.3.2} [Damage Indicators] ([1.7.10]DamageIndicatorsMod-3.3.2.jar) 
+	UC	CoFHCore{1.7.10R3.1.4} [CoFH Core] (CoFHCore-[1.7.10]3.1.4-329.jar) 
+	UC	fp{18.7 pre} [Futurepack] ([1.7.10]Futurepack 18.7.jar) 
+	UC	BuildCraft|Core{7.1.24} [BuildCraft] (buildcraft-7.1.24.jar) 
+	UC	BuildCraft|Silicon{7.1.24} [BC Silicon] (buildcraft-7.1.24.jar) 
+	UC	BuildCraft|Transport{7.1.24} [BC Transport] (buildcraft-7.1.24.jar) 
+	UC	BuildCraft|Factory{7.1.24} [BC Factory] (buildcraft-7.1.24.jar) 
+	UC	additionalpipes{4.7.7} [Additional Pipes] (additionalpipes-4.7.7.jar) 
+	UC	IC2{2.2.827-experimental} [IndustrialCraft 2] (industrialcraft_2_2.2.827_ex1.7.10.jar) 
+	UC	AdvancedSolarPanel{1.7.10-3.5.1} [Advanced Solar Panels] (AdvancedSolarPanel_1.7.10_Edition.jar) 
+	UC	aether_legacy{v1.1.2.2} [The Aether] (aether-1.7.10-v1.1.2.2.jar) 
+	UC	AgriCraft{1.7.10-1.5.0} [AgriCraft] (AgriCraft-1.7.10-1.5.0.jar) 
+	UC	ambientsounds{0.1} [Ambient Sounds] (AmbientSoundsAlphav0.1mc1.7.10.zip) 
+	UC	appliedenergistics2{rv3-beta-6} [Applied Energistics 2] (appliedenergistics2-rv3-beta-6.jar) 
+	UC	Aquaculture{1.2.6} [Aquaculture] (Aquaculture-1.7.10-1.2.6.21.jar) 
+	UC	Backpack{2.0.1} [Backpack] (backpack-2.0.1-1.7.x.jar) 
+	UC	backpacks16840{3.5.8} [Backpacks!] (backpacks+1.7.10+-+3.5.8.jar) 
+	UC	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) 
+	UC	baublelicious{1.7.10-1.2.2-final} [Baublelicious] (baublelicious-1.7.10-1.2.2-final.jar) 
+	UC	BaublesHud{2.0.1} [Baubles-Hud] (BaublesHud-1.7.10-2.0.1.jar) 
+	UC	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft_1.7.10_4.2.3.5.jar) 
+	UC	baublesstuff{2.1.2} [Baubles Stuff] (baublesstuff-2.1.2.jar) 
+	UC	FLabsBF{4.3} [Better Furnaces] (Better-Furnaces-Mod-1.7.10.jar) 
+	UC	betterbuilderswands{0.8.1} [Better Builder's Wands] (BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar) 
+	UC	BetterFoliage{2.0.17} [Better Foliage] (BetterFoliage-MC1.7.10-2.0.17.jar) 
+	UC	BiblioCraft{1.11.6} [BiblioCraft] (BiblioCraft-Mod-1.7.10.jar) 
+	UC	BiomesOPlenty{2.1.0} [Biomes O' Plenty] (BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar) 
+	UC	bookshelf{1.0.4.187} [Bookshelf] (Bookshelf-1.7.10-1.0.4.187.jar) 
+	UC	Botania{r1.8-249} [Botania] (Botania r1.8-249.jar) 
+	UC	BuildCraft|Builders{7.1.24} [BC Builders] (buildcraft-7.1.24.jar) 
+	UC	BuildCraft|Robotics{7.1.24} [BC Robotics] (buildcraft-7.1.24.jar) 
+	UC	BuildCraft|Energy{7.1.24} [BC Energy] (buildcraft-7.1.24.jar) 
+	UC	ChestTransporter{2.0.6} [Chest Transporter] (ChestTransporter-1.7.10-2.0.6.jar) 
+	UC	Railcraft{9.12.2.1} [Railcraft] (Railcraft_1.7.10-9.12.2.1.jar) 
+	UC	TwilightForest{2.3.8dev} [The Twilight Forest] (twilightforest-1.7.10-2.3.8.jar) 
+	UC	ForgeMultipart{1.2.0.345} [Forge Multipart] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UC	chisel{2.9.5.11} [Chisel] (Chisel-2.9.5.11.jar) 
+	UC	chunkpregenerator{2.5.0} [Chunk Pregenerator] (Chunk+Pregenerator-V1.7.10-2.5.3.jar) 
+	UC	CoroAI{v1.0} [CoroAI] (coroutil-1.7.10-1.1.6.jar) 
+	UC	BuildMod{v1.0} [Build Mod] (coroutil-1.7.10-1.1.6.jar) 
+	UC	CoroPets{v1.0} [CoroPets] (coroutil-1.7.10-1.1.6.jar) 
+	UC	ExtendedRenderer{v1.0} [Extended Renderer] (coroutil-1.7.10-1.1.6.jar) 
+	UC	ConfigMod{v1.0} [Extended Mod Config] (coroutil-1.7.10-1.1.6.jar) 
+	UC	MineTweaker3{3.1.0} [MineTweaker 3] (CraftTweaker-1.7.10-3.1.0-legacy.jar) 
+	UC	creativecore{1.3.14} [CreativeCore] (CreativeCore v1.3.24 mc1.7.10.jar) 
+	UC	DynamicLights{1.3.9a} [Dynamic Lights] (Dynamic Lights-1.3.9a-MC1.7.10.jar) 
+	UC	dynamictrees{1.7.10-0.7.2c} [Dynamic Trees] (DynamicTrees-1.7.10-0.7.2c.jar) 
+	UC	enviromine{1.3.124} [EnviroMine] (EnviroMine-1.3.124.jar) 
+	UC	ThermalFoundation{1.7.10R1.2.6} [Thermal Foundation] (ThermalFoundation-[1.7.10]1.2.6-118.jar) 
+	UC	ExtraUtilities{1.2.12} [Extra Utilities] (extrautilities-1.2.12.jar) 
+	UC	foamfix{@VERSION@} [FoamFix] (FoamFix-1.7.10-universal-1.0.2.jar) 
+	UC	FoodExpansion{1.0} [Food Expansion] (FoodExpansion1.1.1-mc1.7.10.jar) 
+	UC	Forestry{4.2.16.64} [Forestry for Minecraft] (forestry_1.7.10-4.2.16.64.jar) 
+	UC	FpsReducer{mc1.7.10-1.10.3} [FPS Reducer] (FpsReducer-mc1.7.10-1.10.3.jar) 
+	UC	Waila{1.5.10} [Waila] (Waila-1.5.10_1.7.10.jar) 
+	UC	FTBL{1.0.18.2} [FTBLib] (FTBLib-1.7.10-1.0.18.3.jar) 
+	UC	FTBT{1.0.2} [FTB Tweaks] (FTBTweaks-1.0.2.jar) 
+	UC	FTBU{1.0.18.2} [FTBUtilities] (FTBUtilities-1.7.10-1.0.18.3.jar) 
+	UC	iChunUtil{4.2.3} [iChunUtil] (iChunUtil-4.2.3.jar) 
+	UC	IGWMod{1.1.12-34} [In-Game wiki Mod] (IGW-Mod-1.7.10-1.1.12-34-universal.jar) 
+	UC	ImmersiveEngineering{0.7.7} [Immersive Engineering] (ImmersiveEngineering-0.7.7.jar) 
+	UC	trackapi{1.2} [Track API] (TrackAPI-1.2.jar) 
+	UC	universalmodcore{1.1.4} [UniversalModCore] (UniversalModCore-1.7.10-forge-1.1.4-899c85.jar) 
+	UC	immersiverailroading{1.9.1} [Immersive Railroading] (ImmersiveRailroading-1.7.10-forge-1.9.1.jar) 
+	UC	industrialupgrade{2.5.21} [Industrial Upgrade] (IndustrialUpgrade-2.5.21.jar) 
+	UC	instantblocks{1.5.5} [Instant Blocks] (instantblocks-1.7.10-1.5.5.jar) 
+	UC	inventorytweaks{1.59-dev-152-cf6e263} [Inventory Tweaks] (InventoryTweaks-1.59-dev-152.jar) 
+	UC	IronChest{6.0.39.728} [Iron Chest] (ironchest-1.7.10-6.0.39.728-universal.jar) 
+	UC	ironfurnaces{1.2.4} [Iron Furnaces] (ironfurnaces-1.2.4R.jar) 
+	UC	journeymap{5.1.4p2} [JourneyMap] (journeymap-1.7.10-5.1.4p2-unlimited.jar) 
+	UC	jecalculation{1.7.10-3.8.4} [Just Enough Calculation] (JustEnoughCalculation-1.7.10-3.8.4.jar) 
+	UC	KeepingInventory{2.1} [Keeping Inventory] (KeepingInventory-1.7.10-2.1.jar) 
+	UC	llibrary{1.5.1} [LLibrary] (llibrary-1.5.1-1.7.10.jar) 
+	UC	Mantle{1.7.10-0.3.2.jenkins191} [Mantle] (Mantle-1.7.10-0.3.2b.jar) 
+	UE	mcheli{1.0} [mcheli] (MC1.7.10-mcheli-1.0.4.zip) 
+	UC	RadixCore{2.1.3} [RadixCore] (RadixCore-1.7.10-2.1.3-universal.jar) 
+	UC	MCA{1.7.10-5.2.2} [Minecraft Comes Alive] (MCA-1.7.10-5.2.2-universal.jar) 
+	UC	Morpheus{1.7.10-1.6.21} [Morpheus] (Morpheus-1.7.10-1.6.21.jar) 
+	UC	OpenMods{0.10.1} [OpenMods] (OpenModsLib-1.7.10-0.10.1.jar) 
+	UC	OpenBlocks{1.6} [OpenBlocks] (OpenBlocks-1.7.10-1.6.jar) 
+	UC	MrTJPCoreMod{1.1.0.33} [MrTJPCore] (MrTJPCore-1.1.0.33-universal.jar) 
+	UC	ProjRed|Core{4.7.0pre12.95} [ProjectRed Core] (ProjectRed-1.7.10-4.7.0pre12.95-Base.jar) 
+	UC	ProjRed|Transmission{4.7.0pre12.95} [ProjectRed Transmission] (ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar) 
+	UC	OpenComputers{1.8.0-snapshot-20220918} [OpenComputers] (OpenComputers-MC1.7.10-1.8.0-snapshot-20220918+00c5a9b-universal.jar) 
+	UC	ProjectE{1.7.10-PE1.10.1} [ProjectE] (ProjectE-1.7.10-PE1.10.1.jar) 
+	UC	ProjRed|Transportation{4.7.0pre12.95} [ProjectRed Transportation] (ProjectRed-1.7.10-4.7.0pre12.95-Mechanical.jar) 
+	UC	ProjRed|Exploration{4.7.0pre12.95} [ProjectRed Exploration] (ProjectRed-1.7.10-4.7.0pre12.95-World.jar) 
+	UC	TConstruct{1.7.10-1.8.8.build991} [Tinkers' Construct] (TConstruct-1.7.10-1.8.8.build991.jar) 
+	UC	ProjRed|Compatibility{4.7.0pre12.95} [ProjectRed Compatibility] (ProjectRed-1.7.10-4.7.0pre12.95-Compat.jar) 
+	UC	ProjRed|Integration{4.7.0pre12.95} [ProjectRed Integration] (ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar) 
+	UC	ProjRed|Fabrication{4.7.0pre12.95} [ProjectRed Fabrication] (ProjectRed-1.7.10-4.7.0pre12.95-Fabrication.jar) 
+	UC	ProjRed|Illumination{4.7.0pre12.95} [ProjectRed Illumination] (ProjectRed-1.7.10-4.7.0pre12.95-Lighting.jar) 
+	UC	ProjRed|Expansion{4.7.0pre12.95} [ProjectRed Expansion] (ProjectRed-1.7.10-4.7.0pre12.95-Mechanical.jar) 
+	UC	rftools{4.23} [RFTools] (rftools-4.23.jar) 
+	UC	RTG{1.7.10-1.1.1.7} [Realistic Terrain Generation] (RTG-1.7.10-1.1.1.7.jar) 
+	UC	sereneseasons{1.2.18} [Serene Seasons] (SereneSeasons-1.7.10-1.2.18.jar) 
+	UC	StorageDrawers{1.7.10-1.10.9} [Storage Drawers] (StorageDrawers-1.7.10-1.10.9.jar) 
+	UC	structpro{4.0} [StructPro] (structpro-4.0-1.7.10.jar) 
+	UC	ThermalDynamics{1.7.10R1.2.1} [Thermal Dynamics] (ThermalDynamics-[1.7.10]1.2.1-172.jar) 
+	UC	trashslot{1.0.31} [TrashSlot] (trashslot-mc1.7.10-1.0.31.jar) 
+	UC	wawla{1.3.1} [What Are We Looking At] (Wawla-1.0.5.120.jar) 
+	UC	waystones{1.0.12} [Waystones] (Waystones-mc1.7.10-1.0.12.jar) 
+	UC	weather2{v2.3.19} [Localized Weather & Storms] (weather2-1.7.10-2.3.20.jar) 
+	UC	wirelessindustry{0.7.20} [Wireless Industry] (wirelessindustry-0.7.20.jar) 
+	UC	McMultipart{1.2.0.345} [Minecraft Multipart Plugin] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	UC	ForgeRelocation{0.0.1.4} [ForgeRelocation] (ForgeRelocation-1.7.10-0.0.1.4-universal.jar) 
+	UC	MCFrames{1.0} [MCFrames] (ForgeRelocation-1.7.10-0.0.1.4-universal.jar) 
+	UC	RelocationFMP{0.0.1.2} [RelocationFMP] (ForgeRelocationFMP-1.7.10-0.0.1.2-universal.jar) 
+	UC	ForgeMicroblock{1.2.0.345} [Forge Microblocks] (ForgeMultipart-1.7.10-1.2.0.345-universal.jar) 
+	GL info: ' Vendor: 'Intel' Version: '4.6 (Compatibility Profile) Mesa 22.0.5' Renderer: 'Mesa Intel(R) UHD Graphics (CML GT2)'
+	OpenModsLib class transformers: [stencil_patches:FINISHED],[movement_callback:FINISHED],[player_damage_hook:FINISHED],[map_gen_fix:ENABLED],[gl_capabilities_hook:FINISHED],[player_render_hook:FINISHED]
+	Class transformer null safety: found misbehaving transformers: sereneseasons.asm.transformer.ColorTransformer(sereneseasons.asm.transformer.ColorTransformer@39feba0c) crashed with java.lang.NullPointerException(null),sereneseasons.asm.transformer.WeatherTransformer(sereneseasons.asm.transformer.WeatherTransformer@6f2be08a) crashed with java.lang.NullPointerException(null)
+	CoFHCore: -[1.7.10]3.1.4-329
+	AE2 Version: beta rv3-beta-6 for Forge 10.13.4.1448
+	ThermalFoundation: -[1.7.10]1.2.6-118
+	Mantle Environment: DO NOT REPORT THIS CRASH! Unsupported mods in environment: optifine
+	TConstruct Environment: Environment healthy.
+	ThermalDynamics: -[1.7.10]1.2.1-172
+	OptiFine Version: OptiFine_1.7.10_HD_U_E7
+	Render Distance Chunks: 32
+	Mipmaps: 4
+	Anisotropic Filtering: 16
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 22.0.5
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics (CML GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8

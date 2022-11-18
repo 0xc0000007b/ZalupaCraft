@@ -1,0 +1,62 @@
+[14:29:00] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[14:29:00] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.core.config
+[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.fullmap.config
+[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.minimap.config
+[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.minimap2.config
+[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.webmap.config
+[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.waypoint.config
+[14:29:00] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 Unlimited, built with Forge 10.13.4.1558
+Forge: 10.13.4.1614
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_US, locale=en_us
+Unlimited Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=0, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, active=true, compassFontScale=1, enabled=true, frameAlpha=100, name=minimap, orientation=North, position=Top Right, preferredMapType=day, reticleOrientation=Compass, shape=Circle, showBiome=true, showCompass=true, showFps=false, showLocation=true, showReticle=true, sizePercent=30, terrainAlpha=100}
+MiniMapProperties2{enabled=true, shape=Rectangle, position=Top Center, showFps=false, showBiome=true, showLocation=true, showWaypointLabels=true, sizePercent=30, frameAlpha=60, terrainAlpha=60, orientation=My Heading, compassFontScale=1, showCompass=true, showReticle=true, reticleOrientation=Compass, preferredMapType=day, name=minimap2, id=2}
+FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPets=true, showPlayers=true, showSelf=true, showVillagers=true, showWaypoints=true, zoomLevel=0, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=true, showWaypointLabels=true, showMobHeading=true, showPlayerHeading=true, textureSmall=true, preferredMapType=day, showGrid=true}
+WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
+WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
+CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, isUpdateCheckEnabled=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=4, revealShape=Circle, themeName=Victorian, tileRenderType=1}
+[14:29:00] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[14:29:16] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[14:29:16] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[14:29:16] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[14:29:16] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+java.net.UnknownHostException: widget.mcf.li
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_202]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_202]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_202]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_202]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_202]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_202]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_202]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_202]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_202]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_202]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_202]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:91) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1484) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1482) ~[?:1.8.0_202]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_202]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_202]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1481) ~[?:1.8.0_202]
+	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_202]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_202]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+[14:29:16] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r582.62§8ms§r
