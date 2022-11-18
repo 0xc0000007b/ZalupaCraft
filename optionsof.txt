@@ -1,10 +1,10 @@
-ofRenderDistanceChunks:11
+ofRenderDistanceChunks:7
 ofFogType:1
 ofFogStart:0.8
 ofMipmapType:2
 ofLoadFar:false
 ofPreloadedChunks:0
-ofOcclusionFancy:true
+ofOcclusionFancy:false
 ofSmoothFps:false
 ofSmoothWorld:true
 ofAoLevel:0.0
@@ -46,7 +46,7 @@ ofChunkUpdates:1
 ofChunkLoading:1
 ofChunkUpdatesDynamic:false
 ofTime:0
-ofClearWater:false
+ofClearWater:true
 ofDepthFog:true
 ofAaLevel:0
 ofProfiler:false

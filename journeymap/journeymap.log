@@ -1,12 +1,12 @@
-[14:29:00] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[14:29:00] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.core.config
-[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.fullmap.config
-[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.minimap.config
-[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.minimap2.config
-[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.webmap.config
-[14:29:00] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.waypoint.config
-[14:29:00] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 Unlimited, built with Forge 10.13.4.1558
+[16:13:16] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[16:13:16] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[16:13:16] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.core.config
+[16:13:16] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.fullmap.config
+[16:13:16] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.minimap.config
+[16:13:16] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.minimap2.config
+[16:13:16] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.webmap.config
+[16:13:16] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/config/5.1/journeymap.waypoint.config
+[16:13:16] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 Unlimited, built with Forge 10.13.4.1558
 Forge: 10.13.4.1614
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_US, locale=en_us
 Unlimited Features: 
@@ -21,11 +21,12 @@ FullMapProperties{entityIconSetName=2D, showAnimals=true, showMobs=true, showPet
 WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=false, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=true, showStaticBeam=true, showTexture=true, textureSmall=true}
 WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
 CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=3100, cacheMobsData=3000, cachePlayerData=1000, cachePlayersData=2000, cacheVillagersData=2200, caveIgnoreGlass=true, isUpdateCheckEnabled=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=32, maxMobsData=32, maxPlayersData=32, maxVillagersData=32, optionsManagerViewed=, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=4, revealShape=Circle, themeName=Victorian, tileRenderType=1}
-[14:29:00] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
-[14:29:16] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
-[14:29:16] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
-[14:29:16] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
-[14:29:16] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+[16:13:16] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[16:13:30] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[16:13:30] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[16:13:30] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[16:13:31] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r512.71§8ms§r
+[16:13:31] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
 java.net.UnknownHostException: widget.mcf.li
 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_202]
 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_202]
@@ -59,4 +60,155 @@ java.net.UnknownHostException: widget.mcf.li
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
-[14:29:16] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r582.62§8ms§r
+[16:13:53] [Client thread/INFO] [ColorManager] Loading blocks and textures...
+[16:13:54] [Client thread/INFO] [BlockMD] Built BlockMD cache (7227) : BlockMD.reset count 1 avg 119.96ms
+[16:13:55] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 8192x4096 loaded in 1398.632004ms
+[16:13:55] [Client thread/INFO] [ColorPalette] Existing color palette's resource packs and mod names match current loadout.
+[16:13:55] [Client thread/INFO] [ColorManager] Loaded 6418 block colors from color palette file in 95ms: /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/colorpalette.json
+[16:13:55] [Client thread/WARN] [ColorHelper_1_7_10] Error getting block color from mod. Plese report this exception to the mod author of industrialupgrade:BlockSolarPanel: java.lang.ArrayIndexOutOfBoundsException: 14
+	at com.denfop.block.base.BlockSolarPanel.func_149691_a(BlockSolarPanel.java:126)
+	at journeymap.client.forge.helper.impl.ColorHelper_1_7_10.getDirectIcon(ColorHelper_1_7_10.java:206)
+	at journeymap.client.forge.helper.impl.ColorHelper_1_7_10.getTextureColor(ColorHelper_1_7_10.java:119)
+[16:13:55] [Client thread/INFO] [ColorManager] Initialized 177 block colors from mods and resource packs in 66ms
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantObsidian:0] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockAiry:0] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockEldritchNothing:0] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockPortalEldritch:0] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantLeaves:0] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6018] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6017] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6016] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6020] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6019] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:5954] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:5953] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:5952] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:5888] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:5904] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:5896] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6272] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6278] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6277] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6276] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6210] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6209] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6208] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6212] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6178] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6176] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6182] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6181] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6180] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6145] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6144] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6152] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6081] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6080] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6096] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6088] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6092] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4290] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4289] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantCobble:0] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7554] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7553] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7552] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7558] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7557] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7556] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7555] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7562] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7561] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7560] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7559] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7563] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7493] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7492] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7496] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7424] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7938] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7937] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7936] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7942] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7941] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7940] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7939] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7944] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:7943] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6528] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6536] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6465] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6464] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6401] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6400] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6657] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6656] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6660] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6671] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6664] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6670] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6669] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6668] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6593] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6592] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6976] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6980] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6913] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:6912] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:2048] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:2052] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:2064] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:2056] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:2060] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:193] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:192] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockWarded:0] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.CastleDoorVanished:0] (OpenToSky,Transparency,Error,TransparentRoof)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4225] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4224] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4228] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4160] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4097] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4096] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4102] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4101] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4100] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4112] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4111] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4105] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4104] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4103] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4109] (Transparency,Error)
+[16:13:55] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:4108] (Transparency,Error)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ForgeMultipart:block:0] (Transparency,Error)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:3073] (Transparency,Error)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [chisel:glass_pane:4] (OpenToSky,Transparency,Error,TransparentRoof)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:128] (Transparency,Error)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Eln:Eln.SixNode:136] (Transparency,Error)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.HugeLilyPad:0] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [backpacks16840:backpack_block:0] (Transparency,Error)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:0] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:2] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:1] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:4] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:3] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:6] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:5] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:8] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:7] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:10] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:9] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:12] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:11] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:14] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:13] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:15] (NoShadow,Transparency,Error,Plant,NoTopo)
+[16:13:56] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantLog:0] (Transparency,Error)
+[16:13:56] [Client thread/INFO] [ColorPalette] Color palette file generated with 6418 colors in 165ms for: /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/colorpalette.json
+[16:13:56] [Client thread/INFO] [ColorManager] Updated color palette file: /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/colorpalette.json
+[16:16:39] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/data/sp/For Screens/waypoints
+[16:16:39] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[16:16:39] [Client thread/INFO] [JourneymapClient] Mapping started in /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/data/sp/For Screens/DIM0. Memory: 5728MB total, 3136MB free 
+[16:23:13] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[16:30:55] [Client thread/INFO] [StateTickHandler] 0xc000007b died at x:734, y:65, z:-238. Deathpoint created: true
+[16:32:14] [Client thread/INFO] [JourneymapClient] Mapping halted in /home/nohack/.minecraft/versions/ZalupaCraft 1.0 pre-beta/journeymap/data/sp/For Screens/DIM0
