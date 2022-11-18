@@ -1,10 +1,3 @@
-#   MOD LIST FOR ZALUPA CRAFT 1.0
-
-![](Images/zalupalogo.png)
-
-все моды работают нормально.
-
-даже у меня на машине 60 - 70 FPS
 
 ## My Stack
 > 1. NVidia GTX 1650(2Gib VRAM)
@@ -12,6 +5,12 @@
 > 3. 8 Gib RAM
 > 4. 500 Gib HDD
 > 5. Ubuntu 22.04 LTS
+
+![](Images/zalupalogo.png)
+
+
+
+#   MOD LIST FOR ZALUPA CRAFT 1.0
 
 >Graphics: 
 >> 1. &#10003; Optifine
